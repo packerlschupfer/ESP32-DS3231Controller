@@ -1,0 +1,44 @@
+{
+  "name": "ESP32-DS3231Controller",
+  "version": "0.1.0",
+  "description": "DS3231 RTC controller with scheduling, alarms, and timer features for ESP32",
+  "keywords": [
+    "ds3231",
+    "rtc",
+    "real-time-clock",
+    "scheduler",
+    "timer",
+    "alarm",
+    "esp32",
+    "temperature-compensated",
+    "i2c"
+  ],
+  "authors": [
+    {
+      "name": "packerlschupfer",
+      "email": "packerlschupfer@noreply.github.com",
+      "maintainer": true
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/packerlschupfer/ESP32-DS3231Controller.git"
+  },
+  "homepage": "https://github.com/packerlschupfer/ESP32-DS3231Controller",
+  "license": "MIT",
+  "frameworks": [
+    "arduino"
+  ],
+  "platforms": [
+    "espressif32"
+  ],
+  "dependencies": {
+    "adafruit/RTClib": "^2.1.1",
+    "ESP32-MutexGuard": "file:///home/mrnice/.platformio/lib/ESP32-MutexGuard"
+  },
+  "export": {
+    "include": [
+      "src/*"
+    ]
+  }
+}
