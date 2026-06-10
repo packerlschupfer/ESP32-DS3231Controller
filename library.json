@@ -33,6 +33,7 @@
     "espressif32"
   ],
   "dependencies": {
+    "adafruit/Adafruit BusIO": "^1.14.1",
     "adafruit/RTClib": "^2.1.1",
     "ESP32-MutexGuard": "https://github.com/packerlschupfer/ESP32-MutexGuard.git"
   },
